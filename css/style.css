@@ -3,16 +3,15 @@
     flex-direction: row;
     justify-content: center;  
 }
-.square-white{
+.square1{
+    width: 50px;
+    height: 50px;
     
-    width: 50px;
-    height: 50px;
-    background: white;
 }
-.square-black{
+.square2{
     width: 50px;
     height: 50px;
-    background: black;
+    
 }
 .border{
     display: inline-block;
@@ -22,4 +21,11 @@
 .center{
     display: flex;
     justify-content: center;
+}
+.square1:nth-child(even){
+    background-color: black;
+
+}
+.square2:nth-child(odd){
+    background-color: black;
 }
